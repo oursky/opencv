@@ -12,9 +12,9 @@ Build instruction
 
 1. Download OpenCV
 
-2. Build with
+2. Run
 
 ```
-IPHONEOS_DEPLOYMENT_TARGET=13.0 ./platforms/ios/build_framework.py build_xc --iphoneos_archs=arm64 --iphonesimulator_archs x86_64,arm64
+./platforms/ios/build_framework.py build_xc --iphoneos_archs=arm64 --iphonesimulator_archs x86_64,arm64
 ```
 
