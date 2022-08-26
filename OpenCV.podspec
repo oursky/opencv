@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
     s.name         = "OpenCV"
-    s.version      = "4.5.5"
+    s.version      = "4.6.0"
     s.summary      = "OpenCV (Computer Vision) for iOS."
     s.homepage      = "https://opencv.org/."
   
     s.license      = 'BSD'
     s.author       = 'https://github.com/opencv/opencv/graphs/contributors'
   
-    s.source       = { :http => "https://github.com/oursky/opencv/releases/download/4.5.5/opencv2.xcframework.zip" }
+    s.source       = { :http => "https://github.com/oursky/opencv/releases/download/#{s.version}/opencv2.xcframework.zip" }
 
     s.module_name = "OpenCV"
   
