@@ -1,0 +1,3 @@
+install:
+  - wget https://github.com/oursky/opencv/releases/download/4.6.0/opencv-release.aar
+  - mvn install:install-file -Dfile=opencv-release.aar -DgroupId=com.lb.sdktest -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
